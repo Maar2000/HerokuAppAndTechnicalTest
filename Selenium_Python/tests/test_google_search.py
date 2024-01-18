@@ -2,6 +2,7 @@ import unittest
 from selenium import webdriver
 from google_search_page import GoogleSearchPage
 
+## This is a sample of the first scenario using unittest
 class TestGoogleSearch(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome(executable_path='driver\chromedriver.exe')
